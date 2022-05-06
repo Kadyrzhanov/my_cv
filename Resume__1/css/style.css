@@ -1,0 +1,344 @@
+
+@font-face {
+    font-family: 'OpenSans';
+    src: local('OpenSans-Regular'),
+      url('../fonts/OpenSans-Regular.woff2') format("woff2"),
+      url('../fonts/OpenSans-Regular.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: local('OpenSans-Light'),
+      url('../fonts/OpenSans-Light.woff2') format("woff2"),
+      url('../fonts/OpenSans-Light.woff') format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: local('OpenSans-Semibold'),
+      url('../fonts/OpenSans-SemiBold.woff2') format("woff2"),
+      url('../fonts/OpenSans-SemiBold.woff') format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "OpenSans", sans-serif;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.section__title {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+}
+/*header*/
+.header {
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.header__container {
+    max-width: 1200px;
+    padding-top: 20px;
+    margin: 0 auto;
+    background-color: #283447;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header__left {
+    padding: 30px 0 30px 150px;
+    margin-right: 250px;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.heading {
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.work-title {
+    font-size: 32px;
+    color: #005b96;
+    margin-bottom: 20px;
+}
+
+.header__list {
+    flex-direction: column;
+}
+
+.header__item {
+    align-items: center;
+}
+
+.header__item:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.header__link {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.svg {
+    fill: white;
+    width: 20px;
+    height: 20px;
+    transform: translateY(5px);
+}
+
+.whatsapp_icon {
+    width: 22px;
+    height: 22px;
+    transform: translateY(5px);
+}
+
+.telegram_icon {
+    width: 20px;
+    height: 20px;
+    transform: translateY(4px);
+}
+
+.phone_icon {
+    background-image: url(../img/phone.svg);
+    background-size: 24px 24px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+
+/* main section */
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.section-cover {
+    padding: 0 20px;
+    border-right: 1px solid #dadada;
+}
+
+/* education */
+.education {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dadada;
+}
+
+.opacity {
+    opacity: 0.7;
+}
+
+.education__item {
+    font-size: 26px;
+}
+
+.education__item:not(:last-child) {
+    margin-bottom: 7px;
+}
+
+.left-block {
+    margin-right: 20px;
+}
+
+.bachelor-deg {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dadada;
+}
+
+/* certificates */
+.certificates {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #dadada;
+}
+
+.certificates__list {
+    column-count: 2;
+}
+
+.certificates__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.certificates__link {
+    font-size: 26px;
+    color:  #0000A3;
+    text-decoration: underline;
+}
+
+/* portfolio */
+.portfolio__item {
+    font-size: 26px;
+}
+
+.portfolio__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.portfolio__link {
+    font-size: 26px;
+    padding-left: 15px;
+    color:  #0000A3;
+    text-decoration: underline;
+}
+
+/* aside */
+.aside-cover {
+    padding: 0 20px;
+}
+
+/* personal-info */
+
+.personal-info__block {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dadada;
+}
+
+.personal-info__item {
+    font-size: 22px;
+}
+
+.personal-info__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+/* skills */
+.skills__block {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dadada;
+}
+
+/* .skills__list {
+    column-count: 2;
+} */
+
+.skills__item {
+    font-size: 26px;
+}
+
+.skills__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+/* languages */
+.languages__block {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dadada;
+}
+
+.languages__item {
+    font-size: 26px;
+}
+
+.languages__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+/* contacts */
+.contacts-container {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dadada;
+}
+
+.contacts__item {
+    font-size: 16px;
+}
+
+.contacts__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.contacts__link {
+    color:  #0000A3;
+}
+
+.linkedin {
+    background-image: url(../img/linkedin-svgrepo-com.svg);
+    background-size: 24px 24px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+
+.github {
+    background-image: url(../img/github-svgrepo-com.svg);
+    background-size: 24px 24px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.githuub {
+    background-image: url(../img/github.webp);
+    background-size: 24px 24px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.facebook {
+    background-image: url(../img/facebook-svgrepo-com.svg);
+    background-size: 24px 24px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.instagram {
+    background-image: url(../img/instagram_icon.svg);
+    background-size: 24px 24px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    padding-left: 30px;
+}
+
+/* footer */
+
+
+
+
